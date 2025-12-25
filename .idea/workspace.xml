@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8497aaa5-2d28-43c7-8776-f87daa7b9a51" name="Changes" comment="Case">
-      <change afterPath="$PROJECT_DIR$/report_generator.py" afterDir="false" />
+    <list default="true" id="8497aaa5-2d28-43c7-8776-f87daa7b9a51" name="Changes" comment="Report">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766699208217</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Report">
+      <option name="closed" value="true" />
+      <created>1766699299908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766699299908</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,17 +134,7 @@
     <MESSAGE value="Header analysis" />
     <MESSAGE value="Risk" />
     <MESSAGE value="Case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Case" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report" />
   </component>
 </project>

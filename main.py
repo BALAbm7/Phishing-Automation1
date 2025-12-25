@@ -1,16 +1,23 @@
-# This is a sample Python script.
+from msg_reader import read_msg_file
+from extractor import extract_indicators
+from ti_checker import check_threat_intel
+from header_analysis import analyze_headers
+from risk_engine import calculate_risk
+from case_manager import create_case
+from report_generator import generate_report
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+EMAIL_FILE = "example.msg"
 
+def main():
+    email_text = read_msg_file(EMAIL_FILE)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    indicators = extract_indicators(email_text)
+    ti = check_threat_intel(indicators)
+    headers = analyze_headers(email_text)
+    score, verdict = calculate_risk(ti, headers)
+    case = create_case(verdict)
 
+    generate_report(indicators, ti, headers, score, verdict, case)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    main()
