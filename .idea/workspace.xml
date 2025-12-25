@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8497aaa5-2d28-43c7-8776-f87daa7b9a51" name="Changes" comment="xx">
-      <change afterPath="$PROJECT_DIR$/ti_checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8497aaa5-2d28-43c7-8776-f87daa7b9a51" name="Changes" comment="Case">
+      <change afterPath="$PROJECT_DIR$/report_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +85,48 @@
       <option name="project" value="LOCAL" />
       <updated>1766612643891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Checking the threat">
+      <option name="closed" value="true" />
+      <created>1766698843070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766698843070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Header analysis">
+      <option name="closed" value="true" />
+      <created>1766698948582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766698948582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Risk">
+      <option name="closed" value="true" />
+      <created>1766699057419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766699057419</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Case">
+      <option name="closed" value="true" />
+      <created>1766699208217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766699208217</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xx" />
-    <option name="LAST_COMMIT_MESSAGE" value="xx" />
+    <MESSAGE value="Checking the threat" />
+    <MESSAGE value="Header analysis" />
+    <MESSAGE value="Risk" />
+    <MESSAGE value="Case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Case" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
